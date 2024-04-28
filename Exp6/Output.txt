@@ -1,0 +1,38 @@
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ lex cal.l
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ yacc -d cal.y
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ gcc lex.yy.c y.tab.c -w
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ ./a.out
+
+Enter Any Arithmetic Expression which can have operations Addition, Subtraction, Multiplication, Division, Modulus and Round brackets:
+5-4
+
+Result=1
+
+Entered arithmetic expression is Valid
+
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ ./a.out
+
+Enter Any Arithmetic Expression which can have operations Addition, Subtraction, Multiplication, Division, Modulus and Round brackets:
+99+101
+
+Result=200
+
+Entered arithmetic expression is Valid
+
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ ./a.out
+
+Enter Any Arithmetic Expression which can have operations Addition, Subtraction, Multiplication, Division, Modulus and Round brackets:
+5*4
+
+Result=20
+
+Entered arithmetic expression is Valid
+
+aiktc@aiktc-OptiPlex-3046:~/Desktop/21co57/LexYacc$ ./a.out
+
+Enter Any Arithmetic Expression which can have operations Addition, Subtraction, Multiplication, Division, Modulus and Round brackets:
+54+(5*4)
+
+Result=74
+
+Entered arithmetic expression is Valid 

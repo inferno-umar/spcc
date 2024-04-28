@@ -1,0 +1,46 @@
+/*
+Implementation of One-Pass Assembler.
+
+Experiment: 1
+
+@Learner: TE-CO
+Name: Siddiqui Umar Farooque
+Roll No: 21co57
+Batch: 3
+Academic Year: 2024
+Sem - 6
+*/
+
+Program:
+
+1012	ALPHA
+
+1017	ONE
+
+1019	TWO
+
+1022	BETA
+
+1025	_
+
+Output:
+
+opy	START	1000
+
+1000	-	LDA	ALPHA
+
+1003	-	ADD	ONE
+
+1006	-	SUB	TWO
+
+1009	-	STA	BETA
+
+1012	ALPHA	BYTE	C'KLNCE
+
+1017	ONE	RESB	2
+
+1019	TWO	WORD	5
+
+1022	BETA	RESW	1
+
+1025	_	END	_
